@@ -11,14 +11,17 @@
 <body>
   <main>
     <div class="faq">
-      <h1 class="faq__title">FAQs</h1>
+      <div class="faq__title">
+        <img class="faq__title-icon" src="./assets/images/icon-star.svg" alt="">
+        <h1 class="faq__title-text">FAQs</h1>
+      </div>
       <ul class="faq__list">
         <li class="faq__item">
           <div class="faq__question">
             <span class="faq__question-text">What is Frontend Mentor, and how will it help me?</span>
-            <button class="faq__toggle"></button>
+            <button class="faq__toggle faq__toggle-expanded"></button>
           </div>
-          <div class="faq__answer">
+          <div class="faq__answer active">
             <p class="faq__answer-text">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
           </div>
         </li>
